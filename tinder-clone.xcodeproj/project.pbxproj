@@ -14,6 +14,7 @@
 		D48A15852675A5DA00E1C9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48A15842675A5DA00E1C9D3 /* Assets.xcassets */; };
 		D48A15882675A5DA00E1C9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48A15862675A5DA00E1C9D3 /* LaunchScreen.storyboard */; };
 		D48A15912675A61A00E1C9D3 /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48A15902675A61A00E1C9D3 /* CombineViewController.swift */; };
+		D48A15952676EACB00E1C9D3 /* CombineCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48A15942676EACB00E1C9D3 /* CombineCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D48A15872675A5DA00E1C9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D48A15892675A5DA00E1C9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D48A15902675A61A00E1C9D3 /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
+		D48A15942676EACB00E1C9D3 /* CombineCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				D48A15862675A5DA00E1C9D3 /* LaunchScreen.storyboard */,
 				D48A15892675A5DA00E1C9D3 /* Info.plist */,
 				D48A15902675A61A00E1C9D3 /* CombineViewController.swift */,
+				D48A15942676EACB00E1C9D3 /* CombineCardView.swift */,
 			);
 			path = "tinder-clone";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				D48A15802675A5C800E1C9D3 /* ViewController.swift in Sources */,
 				D48A157C2675A5C800E1C9D3 /* AppDelegate.swift in Sources */,
+				D48A15952676EACB00E1C9D3 /* CombineCardView.swift in Sources */,
 				D48A15912675A61A00E1C9D3 /* CombineViewController.swift in Sources */,
 				D48A157E2675A5C800E1C9D3 /* SceneDelegate.swift in Sources */,
 			);
