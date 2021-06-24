@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		176CD0702682AA6E009AE712 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CD06F2682AA6E009AE712 /* Loading.swift */; };
+		176CD0722682BA0D009AE712 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CD0712682BA0D009AE712 /* MatchViewController.swift */; };
+		176CD0742682D631009AE712 /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CD0732682D631009AE712 /* DetalheViewController.swift */; };
+		176CD076268423EA009AE712 /* DetalheHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CD075268423EA009AE712 /* DetalheHeaderView.swift */; };
 		D48522F2267823BF0052E641 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48522F1267823BE0052E641 /* UIView.swift */; };
 		D48522F5267826FD0052E641 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48522F4267826FD0052E641 /* UILabel.swift */; };
 		D48522F826782CDA0052E641 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48522F726782CDA0052E641 /* Usuario.swift */; };
@@ -26,6 +29,9 @@
 
 /* Begin PBXFileReference section */
 		176CD06F2682AA6E009AE712 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		176CD0712682BA0D009AE712 /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		176CD0732682D631009AE712 /* DetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
+		176CD075268423EA009AE712 /* DetalheHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheHeaderView.swift; sourceTree = "<group>"; };
 		D48522F1267823BE0052E641 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		D48522F4267826FD0052E641 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		D48522F726782CDA0052E641 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
@@ -90,6 +96,9 @@
 				D48522FD267836420052E641 /* UIImageView.swift */,
 				D485230026783BBF0052E641 /* UIButton.swift */,
 				176CD06F2682AA6E009AE712 /* Loading.swift */,
+				176CD0712682BA0D009AE712 /* MatchViewController.swift */,
+				176CD0732682D631009AE712 /* DetalheViewController.swift */,
+				176CD075268423EA009AE712 /* DetalheHeaderView.swift */,
 			);
 			path = "tinder-clone";
 			sourceTree = "<group>";
@@ -165,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D48522FB26782E130052E641 /* UsuarioService.swift in Sources */,
+				176CD0722682BA0D009AE712 /* MatchViewController.swift in Sources */,
 				D48522F826782CDA0052E641 /* Usuario.swift in Sources */,
 				D48A15802675A5C800E1C9D3 /* ViewController.swift in Sources */,
 				D48A157C2675A5C800E1C9D3 /* AppDelegate.swift in Sources */,
@@ -174,7 +184,9 @@
 				D48A15912675A61A00E1C9D3 /* CombineViewController.swift in Sources */,
 				D485230126783BBF0052E641 /* UIButton.swift in Sources */,
 				D48522F2267823BF0052E641 /* UIView.swift in Sources */,
+				176CD076268423EA009AE712 /* DetalheHeaderView.swift in Sources */,
 				176CD0702682AA6E009AE712 /* Loading.swift in Sources */,
+				176CD0742682D631009AE712 /* DetalheViewController.swift in Sources */,
 				D48A157E2675A5C800E1C9D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

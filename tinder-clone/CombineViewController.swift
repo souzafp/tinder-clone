@@ -90,6 +90,10 @@ extension CombineViewController{
             card.usuario = usuario
             card.tag = usuario.id
             
+            card.callback = { (data) in
+                self.visualizarDetalhe(usuario: data)
+            }
+            
             let gesture = UIPanGestureRecognizer()
             gesture.addTarget(self, action: #selector(handlerCard))
             card.addGestureRecognizer(gesture)
@@ -109,10 +113,23 @@ extension CombineViewController{
     
     func verificarMatch (usuario: Usuario){
         if usuario.match{
+            let matchVC = MatchViewController()
+            matchVC.usuario = usuario
+            matchVC.modalPresentationStyle = .fullScreen
+            self.present(matchVC, animated: true, completion: nil)
             
         }
     }
+    
+    func visualizarDetalhe (usuario: Usuario){
+        let detalheVC = DetalheViewController()
+        detalheVC.modalPresentationStyle = .fullScreen
+        
+        self.present(detalheVC, animated: true, completion: nil)
+    }
 }
+
+
 
 // Controle de rotação do card e Ação do usuário
 extension CombineViewController {
