@@ -54,9 +54,6 @@ class CombineCardView: UIView {
         addSubview(likeImageView)
         likeImageView.preencher(top: topAnchor, leading: leadingAnchor, trailing: nil, bottom: nil, padding: .init(top: 20, left: 20, bottom: 0, right: 0))
         
-        
-        
-        
         fotoImageView.preencherSuperView()
         
         let nomeIdadeStackView = UIStackView(arrangedSubviews: [nomeLabel, idadeLabel, UIView()])

@@ -38,9 +38,6 @@ class CombineViewController: UIViewController {
     }
     
     func buscaUsuarios (){
-//        self.usuarios = UsuarioService.shared.buscaUsuarios()
-//        self.adicionarCards()
-
         UsuarioService.shared.buscaUsuarios { (usuarios, err) in
             if let usuarios = usuarios {
                 DispatchQueue.main.async {
@@ -49,7 +46,6 @@ class CombineViewController: UIViewController {
                 }
             }
         }
-        
     }
     
 }
@@ -117,7 +113,6 @@ extension CombineViewController{
             matchVC.usuario = usuario
             matchVC.modalPresentationStyle = .fullScreen
             self.present(matchVC, animated: true, completion: nil)
-            
         }
     }
     
@@ -125,6 +120,14 @@ extension CombineViewController{
         let detalheVC = DetalheViewController()
         detalheVC.modalPresentationStyle = .fullScreen
         
+        detalheVC.callback = { (usuario, acao) in DispatchQueue.main.asyncAfter(deadline: .now() + 0.5){
+            if acao == .deslike {
+                self.deslikeClique()
+            } else {
+                self.likeClique()
+            }
+        }
+    }
         self.present(detalheVC, animated: true, completion: nil)
     }
 }

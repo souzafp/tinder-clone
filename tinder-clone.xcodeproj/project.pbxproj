@@ -11,6 +11,10 @@
 		176CD0722682BA0D009AE712 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CD0712682BA0D009AE712 /* MatchViewController.swift */; };
 		176CD0742682D631009AE712 /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CD0732682D631009AE712 /* DetalheViewController.swift */; };
 		176CD076268423EA009AE712 /* DetalheHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CD075268423EA009AE712 /* DetalheHeaderView.swift */; };
+		176CD07826842AA3009AE712 /* DetalhePerfilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CD07726842AA3009AE712 /* DetalhePerfilCell.swift */; };
+		176CD07A268431D1009AE712 /* DetalheFotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CD079268431D1009AE712 /* DetalheFotosCell.swift */; };
+		176CD07C2684322A009AE712 /* SlideFotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CD07B2684322A009AE712 /* SlideFotoViewController.swift */; };
+		176CD07E26843299009AE712 /* SlideFotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CD07D26843299009AE712 /* SlideFotoCell.swift */; };
 		D48522F2267823BF0052E641 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48522F1267823BE0052E641 /* UIView.swift */; };
 		D48522F5267826FD0052E641 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48522F4267826FD0052E641 /* UILabel.swift */; };
 		D48522F826782CDA0052E641 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48522F726782CDA0052E641 /* Usuario.swift */; };
@@ -32,6 +36,10 @@
 		176CD0712682BA0D009AE712 /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
 		176CD0732682D631009AE712 /* DetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
 		176CD075268423EA009AE712 /* DetalheHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheHeaderView.swift; sourceTree = "<group>"; };
+		176CD07726842AA3009AE712 /* DetalhePerfilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhePerfilCell.swift; sourceTree = "<group>"; };
+		176CD079268431D1009AE712 /* DetalheFotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheFotosCell.swift; sourceTree = "<group>"; };
+		176CD07B2684322A009AE712 /* SlideFotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideFotoViewController.swift; sourceTree = "<group>"; };
+		176CD07D26843299009AE712 /* SlideFotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideFotoCell.swift; sourceTree = "<group>"; };
 		D48522F1267823BE0052E641 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		D48522F4267826FD0052E641 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		D48522F726782CDA0052E641 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
@@ -61,6 +69,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		176CD07F268974BD009AE712 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D48A15902675A61A00E1C9D3 /* CombineViewController.swift */,
+				176CD0712682BA0D009AE712 /* MatchViewController.swift */,
+				176CD0732682D631009AE712 /* DetalheViewController.swift */,
+				176CD07B2684322A009AE712 /* SlideFotoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		176CD080268974DC009AE712 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D48522F1267823BE0052E641 /* UIView.swift */,
+				D48522F4267826FD0052E641 /* UILabel.swift */,
+				D48522FD267836420052E641 /* UIImageView.swift */,
+				D485230026783BBF0052E641 /* UIButton.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		176CD081268974E5009AE712 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D48522F726782CDA0052E641 /* Usuario.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		176CD082268974EC009AE712 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D48522FA26782E130052E641 /* UsuarioService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		176CD083268974F4009AE712 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D48A15942676EACB00E1C9D3 /* CombineCardView.swift */,
+				176CD06F2682AA6E009AE712 /* Loading.swift */,
+				176CD075268423EA009AE712 /* DetalheHeaderView.swift */,
+				176CD07726842AA3009AE712 /* DetalhePerfilCell.swift */,
+				176CD079268431D1009AE712 /* DetalheFotosCell.swift */,
+				176CD07D26843299009AE712 /* SlideFotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D48A156F2675A5C800E1C9D3 = {
 			isa = PBXGroup;
 			children = (
@@ -80,25 +139,18 @@
 		D48A157A2675A5C800E1C9D3 /* tinder-clone */ = {
 			isa = PBXGroup;
 			children = (
-				D48522F1267823BE0052E641 /* UIView.swift */,
-				D48A157B2675A5C800E1C9D3 /* AppDelegate.swift */,
+				176CD07F268974BD009AE712 /* Controller */,
+				176CD080268974DC009AE712 /* Lib */,
+				176CD081268974E5009AE712 /* Model */,
+				176CD082268974EC009AE712 /* Service */,
+				176CD083268974F4009AE712 /* View */,
 				D48A157D2675A5C800E1C9D3 /* SceneDelegate.swift */,
+				D48A157B2675A5C800E1C9D3 /* AppDelegate.swift */,
 				D48A157F2675A5C800E1C9D3 /* ViewController.swift */,
 				D48A15812675A5C800E1C9D3 /* Main.storyboard */,
 				D48A15842675A5DA00E1C9D3 /* Assets.xcassets */,
 				D48A15862675A5DA00E1C9D3 /* LaunchScreen.storyboard */,
 				D48A15892675A5DA00E1C9D3 /* Info.plist */,
-				D48A15902675A61A00E1C9D3 /* CombineViewController.swift */,
-				D48A15942676EACB00E1C9D3 /* CombineCardView.swift */,
-				D48522F4267826FD0052E641 /* UILabel.swift */,
-				D48522F726782CDA0052E641 /* Usuario.swift */,
-				D48522FA26782E130052E641 /* UsuarioService.swift */,
-				D48522FD267836420052E641 /* UIImageView.swift */,
-				D485230026783BBF0052E641 /* UIButton.swift */,
-				176CD06F2682AA6E009AE712 /* Loading.swift */,
-				176CD0712682BA0D009AE712 /* MatchViewController.swift */,
-				176CD0732682D631009AE712 /* DetalheViewController.swift */,
-				176CD075268423EA009AE712 /* DetalheHeaderView.swift */,
 			);
 			path = "tinder-clone";
 			sourceTree = "<group>";
@@ -177,13 +229,17 @@
 				176CD0722682BA0D009AE712 /* MatchViewController.swift in Sources */,
 				D48522F826782CDA0052E641 /* Usuario.swift in Sources */,
 				D48A15802675A5C800E1C9D3 /* ViewController.swift in Sources */,
+				176CD07C2684322A009AE712 /* SlideFotoViewController.swift in Sources */,
 				D48A157C2675A5C800E1C9D3 /* AppDelegate.swift in Sources */,
 				D48522F5267826FD0052E641 /* UILabel.swift in Sources */,
 				D48A15952676EACB00E1C9D3 /* CombineCardView.swift in Sources */,
 				D48522FE267836420052E641 /* UIImageView.swift in Sources */,
 				D48A15912675A61A00E1C9D3 /* CombineViewController.swift in Sources */,
 				D485230126783BBF0052E641 /* UIButton.swift in Sources */,
+				176CD07A268431D1009AE712 /* DetalheFotosCell.swift in Sources */,
 				D48522F2267823BF0052E641 /* UIView.swift in Sources */,
+				176CD07E26843299009AE712 /* SlideFotoCell.swift in Sources */,
+				176CD07826842AA3009AE712 /* DetalhePerfilCell.swift in Sources */,
 				176CD076268423EA009AE712 /* DetalheHeaderView.swift in Sources */,
 				176CD0702682AA6E009AE712 /* Loading.swift in Sources */,
 				176CD0742682D631009AE712 /* DetalheViewController.swift in Sources */,
