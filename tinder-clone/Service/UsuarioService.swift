@@ -37,7 +37,7 @@ class UsuarioService{
     func buscaUsuarios (completion: @escaping ([Usuario]?, Error?) -> ()) {
         
         //Delay para simular consulta de banco
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
         completion(self.usuarios, nil )
         }
         

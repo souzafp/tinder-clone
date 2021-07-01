@@ -110,14 +110,35 @@
 		176CD083268974F4009AE712 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				17F0EBD3268D52F200256EAE /* Storyboards */,
 				D48A15942676EACB00E1C9D3 /* CombineCardView.swift */,
 				176CD06F2682AA6E009AE712 /* Loading.swift */,
+				D48A15842675A5DA00E1C9D3 /* Assets.xcassets */,
+				D48A157F2675A5C800E1C9D3 /* ViewController.swift */,
 				176CD075268423EA009AE712 /* DetalheHeaderView.swift */,
 				176CD07726842AA3009AE712 /* DetalhePerfilCell.swift */,
 				176CD079268431D1009AE712 /* DetalheFotosCell.swift */,
 				176CD07D26843299009AE712 /* SlideFotoCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		17F0EBD2268D52BC00256EAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D48A157D2675A5C800E1C9D3 /* SceneDelegate.swift */,
+				D48A157B2675A5C800E1C9D3 /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17F0EBD3268D52F200256EAE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D48A15812675A5C800E1C9D3 /* Main.storyboard */,
+				D48A15862675A5DA00E1C9D3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		D48A156F2675A5C800E1C9D3 = {
@@ -139,18 +160,13 @@
 		D48A157A2675A5C800E1C9D3 /* tinder-clone */ = {
 			isa = PBXGroup;
 			children = (
+				17F0EBD2268D52BC00256EAE /* Resources */,
+				D48A15892675A5DA00E1C9D3 /* Info.plist */,
 				176CD07F268974BD009AE712 /* Controller */,
 				176CD080268974DC009AE712 /* Lib */,
 				176CD081268974E5009AE712 /* Model */,
 				176CD082268974EC009AE712 /* Service */,
 				176CD083268974F4009AE712 /* View */,
-				D48A157D2675A5C800E1C9D3 /* SceneDelegate.swift */,
-				D48A157B2675A5C800E1C9D3 /* AppDelegate.swift */,
-				D48A157F2675A5C800E1C9D3 /* ViewController.swift */,
-				D48A15812675A5C800E1C9D3 /* Main.storyboard */,
-				D48A15842675A5DA00E1C9D3 /* Assets.xcassets */,
-				D48A15862675A5DA00E1C9D3 /* LaunchScreen.storyboard */,
-				D48A15892675A5DA00E1C9D3 /* Info.plist */,
 			);
 			path = "tinder-clone";
 			sourceTree = "<group>";
