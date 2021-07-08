@@ -1,10 +1,7 @@
-# tinder-clone
+# Tinder-clone
 
-Projeto foi realizado com objetivo de aprender a criação de interfaces e suas animações.
-<br><br><br><br><br>
-
-
-
+Projeto foi realizado em conjunto ao curso na plataforma Udemy com objetivo de aprender mais sobre desenvolvimento de aplicativos utilizando swift, criação de views, controllers e animações.
+<br><br>
 
 ###### Curso disponível de forma gratuita na Udemy
 iOS 13 & Swift 5 - Recriando o Tinder 2020<br>
